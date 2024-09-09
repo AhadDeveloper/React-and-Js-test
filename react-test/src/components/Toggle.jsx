@@ -8,7 +8,12 @@ const Toggle = () => {
     <>
       <h2>Toggle</h2>
       <p>{ctx.toggle}</p>
-      <button onClick={() => ctx.toggleStateHandler()}>Toggle State</button>
+      <button
+        onClick={() => ctx.toggleStateHandler()}
+        className="p-2 text-white bg-purple-500 rounded-md"
+      >
+        Toggle State
+      </button>
     </>
   );
 };
